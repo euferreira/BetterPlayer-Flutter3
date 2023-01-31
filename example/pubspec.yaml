@@ -1,0 +1,32 @@
+name: better_player_awesome_example
+description: Demonstrates how to use the better_player_awesome plugin.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  better_player_awesome:
+    path: ../
+
+  cupertino_icons: ^1.0.5
+  path_provider: ^2.0.10
+  visibility_detector: ^0.3.3
+  collection: ^1.16.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - assets/
+  uses-material-design: true

@@ -1,0 +1,38 @@
+name: better_player_awesome
+description: A new Flutter project.
+version: 0.0.1
+homepage: https://github.com/jhomlala/betterplayer
+documentation: https://jhomlala.github.io/betterplayer/
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+  flutter: ">=2.5.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+  cupertino_icons: ^1.0.5
+  wakelock: ^0.6.1+2
+  meta: ^1.7.0
+  flutter_widget_from_html_core: ^0.8.5+3
+  visibility_detector: ^0.3.3
+  path_provider: ^2.0.10
+  collection: ^1.16.0
+  xml: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_localizations:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.example.better_player_awesome
+        pluginClass: BetterPlayerAwesomePlugin
+      ios:
+        pluginClass: BetterPlayerAwesomePlugin

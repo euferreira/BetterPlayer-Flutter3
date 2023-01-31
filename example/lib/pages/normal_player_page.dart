@@ -27,8 +27,7 @@ class _NormalPlayerPageState extends State<NormalPlayerPage> {
     );
     _betterPlayerDataSource = BetterPlayerDataSource(
       BetterPlayerDataSourceType.network,
-      //Constants.forBiggerBlazesUrl,
-      "https://videoaulas.infra.grancursosonline.com.br/564afe295161b94c3dcc76ab8ec071b3/83058c07fde4c7d8505b742f96e3fcfe/83058c07fde4c7d8505b742f96e3fcfe-p480.mp4?Expires=1675276738&Signature=hSL92XX9rfzGywzc9f0AXo228JMgg-YxMmt3QGuEUv1GItnMP0opr1aE0uS76qYgwECO~7FsLqmOxh16vOVk3VJSedZBNJcQNbJxNmASMOFTBPuqFllAAzDn~f1Tr86ATZGdHHodM4WVRDC0znM6GSuE1yjP9LJpJ1XABeNn0dt8VNDsW9-z7CPQUNCSbq7TUKy4fkgbfm1hHlAPpISEx0RrSjhFULMPA6zAt2fxS8jrGxRKTNdYqZprPPMtKBgev7cuc86nGoYiY7z53PNO5ls0myuabus-OdQMJJZxrwJgCfm7TPdNxfdnqFQ8s~Yn8QWJ2eEUp5Dc9NnA8POloA__&Key-Pair-Id=APKAJWDRH5QWMLF2KNSA"
+      Constants.forBiggerBlazesUrl,
     );
     _betterPlayerController = BetterPlayerController(betterPlayerConfiguration);
     _betterPlayerController.setupDataSource(_betterPlayerDataSource);
